@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Proofs | DecentNet</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Proofs" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Decentralized, privacy, open-source, cool technologies, networks, software you should use." />
+<meta property="og:description" content="Decentralized, privacy, open-source, cool technologies, networks, software you should use." />
+<link rel="canonical" href="/proofs/" />
+<meta property="og:url" content="/proofs/" />
+<meta property="og:site_name" content="DecentNet" />
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="DecentNet" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">DecentNet</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+				<a class="page-link" href="/about/">About</a>
+				 </div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Proofs</h1>
+  </header>
+
+  <div class="post-content">
+    <style type="text/css">
+code {color:#333;}
+</style>
+
+<p>PGP fingerprint: 4A792049C8DD2B40DA125FE9D6E8C27AC1E025FB (the fingerprint and the public key are posted on the About page)</p>
+
+<p>Version 0.9 20200301 proofs:</p>
+
+<p>about.md signed: <a href="../assets/proofs/about.md.signed.20200302.txt">../assets/proofs/about.md.signed.20200302.txt</a></p>
+
+<p>index.md signed: <a href="../assets/proofs/index.md.signed.20200302.txt">../assets/proofs/index.md.signed.20200302.txt</a></p>
+
+<p>index.md.signed.20200302.txt sha256sum:
+14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sha256sum index.md.signed.20200302.txt
+14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082 *index.md.signed.20200302.txt
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PS X:\&gt; Get-FileHash .\index.md.signed.20200302.txt
+
+Algorithm       Hash
+---------       ----
+SHA256          14C00CA6B1604D3FFB2A541589D9CD9BDB4B831F408AD2761C3694A6CF826082
+</code></pre></div></div>
+
+<p>about.md.signed.20200302.txt sha256sum:
+51cfba7ebf4a39c5c7faf51ad6c15717a246bd4ce86320b0f6fed8a376d8679e</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sha256sum about.md.signed.20200302.txt
+51cfba7ebf4a39c5c7faf51ad6c15717a246bd4ce86320b0f6fed8a376d8679e *about.md.signed.20200302.txt
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PS X:\&gt; Get-FileHash .\about.md.signed.20200302.txt
+
+Algorithm       Hash
+---------       ----
+SHA256          51CFBA7EBF4A39C5C7FAF51AD6C15717A246BD4CE86320B0F6FED8A376D8679E
+</code></pre></div></div>
+
+<p>A Merkle tree with the index.md.signed.20200302.txt sha256sum in it: <a href="../assets/proofs/proof.Bitcoin.14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082.xml">../assets/proofs/proof.Bitcoin.14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082.xml</a></p>
+
+<p>A Merkle tree with the about.md.signed.20200302.txt sha256sum in it: <a href="../assets/proofs/proof.Bitcoin.51cfba7ebf4a39c5c7faf51ad6c15717a246bd4ce86320b0f6fed8a376d8679e.xml">../assets/proofs/proof.Bitcoin.51cfba7ebf4a39c5c7faf51ad6c15717a246bd4ce86320b0f6fed8a376d8679e.xml</a></p>
+
+<p>In these Merkle trees a node is the SHA-256 sum of its left and right child concatenated together. So for example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ echo -n "14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf82608214ce50a323a5e98c1f3b62088ebb39943a4a3f4cd9250497d84ae9026b6f5066" | sha256sum
+e002808b8cbf16bb6bed1b5a916b7d821e332f1d4a2a37b4ec5d545516f6f2c4 *-
+</code></pre></div></div>
+
+<p>The sum on top of both of these Merkle trees is: b0b51ba9d5f3828b906de7af28c1e0184f289fc5d13c57702f4ab8cc9b8246a9</p>
+
+<p>If you convert this to 51 characters base58, you get: 5KA7LTMtcHk9ZbYqTbvo5HN2WpzhHPw8Ge9MHW9XNTPDGXPw9f4</p>
+
+<p>(You can check this on <a href="https://www.bitaddress.org/">https://www.bitaddress.org/</a> under Wallet Details. The website is open source.)</p>
+
+<p>If you use this as a Bitcoin private key, your public key is: 1CuH7GSRT7wj5yWn7hJefAJQkDft3dwwJa</p>
+
+<p>Hash of a Bitcoin transaction containing this public key: <a href="https://www.blockchain.com/btc/tx/8ec8f036253749020dc5e61903ca13563b43c88495f6a4b4c723e36112a6d8b8">8ec8f036253749020dc5e61903ca13563b43c88495f6a4b4c723e36112a6d8b8</a></p>
+
+<p>This transaction was included in BTC block 619908. The timestamp of the block is 2020-03-03 01:03. The block has since been confirmed.</p>
+
+<p>This is proof that the documents signed by me existed before 2020-03-03 01:03.</p>
+
+<p>You can read more about this timestamping process: <a href="https://docs.originstamp.com/guide/originstamp.html">https://docs.originstamp.com/guide/originstamp.html</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DecentNet</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">DecentNet</li><li><a class="u-email" href="mailto:c776a8@disroot.org">c776a8@disroot.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Decentralized, privacy, open-source, cool technologies, networks, software you should use.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
