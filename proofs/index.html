@@ -56,30 +56,26 @@ code {color:#333;}
 <p>index.md.signed.20200302.txt sha256sum:
 14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sha256sum index.md.signed.20200302.txt
-14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082 *index.md.signed.20200302.txt
-</code></pre></div></div>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span><span class="nb">sha256sum </span>index.md.signed.20200302.txt
+14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082 <span class="k">*</span>index.md.signed.20200302.txt</code></pre></figure>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PS X:\&gt; Get-FileHash .\index.md.signed.20200302.txt
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nf">PS</span><span class="w"> </span><span class="nx">X:\</span><span class="err">&gt;</span><span class="w"> </span><span class="nx">Get-FileHash</span><span class="w"> </span><span class="o">.</span><span class="nx">\index.md.signed.20200302.txt</span><span class="w">
 
-Algorithm       Hash
----------       ----
-SHA256          14C00CA6B1604D3FFB2A541589D9CD9BDB4B831F408AD2761C3694A6CF826082
-</code></pre></div></div>
+</span><span class="nf">Algorithm</span><span class="w">       </span><span class="nx">Hash</span><span class="w">
+</span><span class="nf">---------</span><span class="w">       </span><span class="nf">----</span><span class="w">
+</span><span class="nx">SHA256</span><span class="w">          </span><span class="nx">14C00CA6B1604D3FFB2A541589D9CD9BDB4B831F408AD2761C3694A6CF826082</span></code></pre></figure>
 
 <p>about.md.signed.20200302.txt sha256sum:
 51cfba7ebf4a39c5c7faf51ad6c15717a246bd4ce86320b0f6fed8a376d8679e</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sha256sum about.md.signed.20200302.txt
-51cfba7ebf4a39c5c7faf51ad6c15717a246bd4ce86320b0f6fed8a376d8679e *about.md.signed.20200302.txt
-</code></pre></div></div>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span><span class="nb">sha256sum </span>about.md.signed.20200302.txt
+51cfba7ebf4a39c5c7faf51ad6c15717a246bd4ce86320b0f6fed8a376d8679e <span class="k">*</span>about.md.signed.20200302.txt</code></pre></figure>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PS X:\&gt; Get-FileHash .\about.md.signed.20200302.txt
+<figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nf">PS</span><span class="w"> </span><span class="nx">X:\</span><span class="err">&gt;</span><span class="w"> </span><span class="nx">Get-FileHash</span><span class="w"> </span><span class="o">.</span><span class="nx">\about.md.signed.20200302.txt</span><span class="w">
 
-Algorithm       Hash
----------       ----
-SHA256          51CFBA7EBF4A39C5C7FAF51AD6C15717A246BD4CE86320B0F6FED8A376D8679E
-</code></pre></div></div>
+</span><span class="nf">Algorithm</span><span class="w">       </span><span class="nx">Hash</span><span class="w">
+</span><span class="nf">---------</span><span class="w">       </span><span class="nf">----</span><span class="w">
+</span><span class="nx">SHA256</span><span class="w">          </span><span class="nx">51CFBA7EBF4A39C5C7FAF51AD6C15717A246BD4CE86320B0F6FED8A376D8679E</span></code></pre></figure>
 
 <p>A Merkle tree with the index.md.signed.20200302.txt sha256sum in it: <a href="../assets/proofs/proof.Bitcoin.14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082.xml">../assets/proofs/proof.Bitcoin.14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf826082.xml</a></p>
 
@@ -87,9 +83,8 @@ SHA256          51CFBA7EBF4A39C5C7FAF51AD6C15717A246BD4CE86320B0F6FED8A376D8679E
 
 <p>In these Merkle trees a node is the SHA-256 sum of its left and right child concatenated together. So for example:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ echo -n "14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf82608214ce50a323a5e98c1f3b62088ebb39943a4a3f4cd9250497d84ae9026b6f5066" | sha256sum
-e002808b8cbf16bb6bed1b5a916b7d821e332f1d4a2a37b4ec5d545516f6f2c4 *-
-</code></pre></div></div>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span><span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"14c00ca6b1604d3ffb2a541589d9cd9bdb4b831f408ad2761c3694a6cf82608214ce50a323a5e98c1f3b62088ebb39943a4a3f4cd9250497d84ae9026b6f5066"</span> | <span class="nb">sha256sum
+</span>e002808b8cbf16bb6bed1b5a916b7d821e332f1d4a2a37b4ec5d545516f6f2c4 <span class="k">*</span>-</code></pre></figure>
 
 <p>The sum on top of both of these Merkle trees is: b0b51ba9d5f3828b906de7af28c1e0184f289fc5d13c57702f4ab8cc9b8246a9</p>
 
