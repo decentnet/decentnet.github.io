@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Quick How To: Host a Website on Dat (Beaker Browser) for free | DecentNet</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Quick How To: Host a Website on Dat (Beaker Browser) for free" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Dat is a peer-to-peer protocol. Beaker Browser is a browser to browse websites hosted on it. If you visit a website, you download it from other peers, and you seed it further. If you want to support a website, you can pin it, so it’s always available on your computer for others to access (pin me!)." />
+<meta property="og:description" content="Dat is a peer-to-peer protocol. Beaker Browser is a browser to browse websites hosted on it. If you visit a website, you download it from other peers, and you seed it further. If you want to support a website, you can pin it, so it’s always available on your computer for others to access (pin me!)." />
+<link rel="canonical" href="/blog/20200308-host-a-website-on-dat.html" />
+<meta property="og:url" content="/blog/20200308-host-a-website-on-dat.html" />
+<meta property="og:site_name" content="DecentNet" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-08T01:10:00+01:00" />
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="DecentNet" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">DecentNet</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+				<a class="page-link" href="/about.html">About</a>
+				 </div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Quick How To: Host a Website on Dat (Beaker Browser) for free</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-03-08T01:10:00+01:00" itemprop="datePublished">Mar 8, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://dat.foundation/">Dat</a> is a peer-to-peer protocol. <a href="https://beakerbrowser.com/">Beaker Browser</a> is a browser to browse websites hosted on it. If you visit a website, you download it from other peers, and you seed it further. If you want to support a website, you can pin it, so it’s always available on your computer for others to access (<a href="dat://46415d000a5080de26f2458c4170e954c0e0ae0a914143aac09ab138b298019c/">pin me!</a>).</p>
+
+<p>You can host your websites on Dat for free. There are no servers; users and pinning services can serve your files. There are free services that can make your website available on the clearnet.</p>
+
+<p>You host only static websites on Dat. There are no servers to interact with, to host databases on. Static websites can still be used for a lot. With JavaScript you can access other peer-to-peer networks, and store data on if needed, like <a href="https://www.iota.org/">IOTA</a> or <a href="https://ipfs.io/">IPFS</a>.</p>
+
+<p>Popular static site generators are <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://gohugo.io/">Hugo</a>, but there are many others. With these tools you can quickly, easily make a website or a blog that looks good, works well with phones and search engines. You don’t have to do any coding. You should keep your website small, so it’s easier to pin; compress your images.</p>
+
+<ol>
+  <li>
+    <p><a href="https://www.youtube.com/results?search_query=jekyll+tutorial">Make a static website</a></p>
+  </li>
+  <li>
+    <p><a href="https://beakerbrowser.com/install/">Download Beaker Browser</a>, set it up to your liking</p>
+  </li>
+  <li>
+    <p>Menu &gt; Create new &gt; From folder &gt; select the folder your website’s in</p>
+  </li>
+  <li>
+    <p>Under Settings fill in the metaadata: Title, Description etc.</p>
+  </li>
+  <li>
+    <p>Under Files review the changes and Publish all</p>
+  </li>
+  <li>
+    <p>Click Share and share your public key with your friends</p>
+
+    <p>The websites are identified by private keys (dat://46415d000a5080de26f2458c4170e954c0e0ae0a914143aac09ab138b298019c/ for example). While you’re online everyone can download your websites from you. You should use a pinning service to host your files even when you are offline. <a href="hashbase.io">HashBase</a> is a popular pinning service that can host 100 MB for free. It gives you a subdomain, so it’s easier for you to share your website, and it makes your website accessible from the clearnet as well.</p>
+  </li>
+  <li>
+    <p><a href="https://hashbase.io/register">Register on HashBase</a></p>
+  </li>
+  <li>
+    <p><a href="https://hashbase.io/new-archive">Upload archive</a></p>
+  </li>
+  <li>
+    <p>Paste in your public key</p>
+  </li>
+  <li>
+    <p>Give a name (subdomain) to your website</p>
+  </li>
+</ol>
+
+<p>You’re done. Your website is accessible from the clearnet under https://yourname.hashbase.io. It’s always available for everyone to visit. Share your website.</p>
+
+<p>If you’re on Dat, but you host your website on the clearnet in some other way too, like <a href="https://pages.github.com/">GitHub Pages</a>, you should add a .well-known/dat and a  _config.yml file <a href="https://github.com/pfrazee/pfrazee.github.io/commit/6e59d2eb4bcb10b9baf73a3de7d221e80d8190d8">like such</a>, so if people use the Beaker Browser (or a browser add-on), they are redirected to the decentralized Dat website.</p>
+
+<p>Do you have a hobby you want to write about? Do you want a personal website, or a website for your small business? You can create a pretty, small, static website for free in some minutes or hours.</p>
+
+
+  </div><a class="u-url" href="/blog/20200308-host-a-website-on-dat.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DecentNet</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">DecentNet</li><li><a class="u-email" href="mailto:c776a8@disroot.org">c776a8@disroot.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Decentralized, privacy, open-source, cool technologies, networks, software you should use.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
