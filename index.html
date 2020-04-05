@@ -45,7 +45,6 @@
 On Tor, exit nodes let you access the normal internet (clearnet). Both on Tor and I2P you can access hidden services (onions, eepsites) that are only accessible through these anonymity networks. This is preferable to clearnet sites because of increased security. Host your existing website on Tor/I2P as well!<br />
 Tor uses volunteer routers to route your traffic through multiple hops before you reach your destination, while on I2P everyone is a router. This makes I2P suitable for file sharing. Torrents inside I2P are only accessible through I2P; I2P has its own torrent trackers and communities. You could run decentralized nodes inside I2P for technologies that require a lot of traffic (cryptocurrency full nodes, IPFS).<br />
 These networks are a free, open source alternatives to VPNs; Tor lets you access the clearnet, I2P allows you filesharing.<br />
-I2P has an interesting, decentralized, peer-to-peer alternative to e-mail, <a href="https://github.com/i2p/i2p.i2p-bote">I2P-Bote</a>, but the router console plugin is bugged in version 0.4.8.<br />
 Anonymity networks are the pillars of internet freedom. Many of the decentralized technologies lack privacy, leak your IP address to other peers. You can combine anonymity networks with decentralized technologies to access them anonymously. Host nodes on these networks!</p>
 
 <ul>
@@ -119,14 +118,17 @@ Both platforms let users seed videos they are watching or they downloaded, simil
 </ul>
 
 <p>E-mail is a pretty flawed system. Most people use it unencrypted. It’s bad for privacy. In theory it’s possible for attackers to intercept e-mails in plain text. Headers are unencrypted. It is pretty centralized, Gmail controls most user e-mails. It’s hardly free and it’s hard to sign up with providers; big providers steal all your data and require de-anonymization for sign up, privacy providers limit free users, or require payment.<br />
-It has a good concept though. The server can still receive e-mails while you’re offline. It has a mail-like structure with subjects, long messages, replies. Everyone has e-mail addresses. E-mail addresses last forever, or at least for a long time. Everything supports it, it’s old. Use cases are good, it’s enjoyable and easy to use. You can organize your e-mails. Unlike chat messages, they last longer, and they are more serious.<br />
-Finding a free, decentralized alternative to e-mail is important for internet freedom. (If you know any, e-mail me.)</p>
+It has a good concept though. It’s asynchronous, popular, serious, well supported, easy to use. E-mail addresses last forever, or at least for a long time. Websites use it for identification and communication with their users.<br />
+Finding a free, decentralized alternative to e-mail is important for internet freedom.</p>
 
 <ul>
+  <li><a href="https://bitmessage.org/"><strong>Bitmessage</strong></a></li>
   <li><a href="https://github.com/i2p/i2p.i2p-bote"><strong>I2P-Bote</strong></a></li>
 </ul>
 
-<p>I2P-Bote could be a decentralized alternative to e-mail. It needs developers and adoption.</p>
+<p>Bitmessage and I2P-Bote are decentralized, serverless, peer-to-peer alternatives to e-mail. They are asynchronous, encrypted, all messages are stored and distributed by all peers, and only the recipient can decrypt their messages. There are no servers for which you have to pay with money or your data, you don’t have to sign up with nor trust providers. They are run by the community, they work like torrent.<br />
+I2P-Bote uses the I2P anonymity network by default, Bitmessage can work through Tor or clearnet.<br />
+The I2P-Bote router console plugin is broken in version 0.4.8. Both applications need more development, adoption; support the developers.</p>
 
 <ul>
   <li><a href="https://gnupg.org/"><strong>OpenPGP, GnuPG</strong></a></li>
@@ -171,7 +173,12 @@ IRC and XMPP are popular on the darknet; anonymity networks hide your IP from th
 <p>Newer decentralized, federated chat protocol. FOSS alternative to Discord. Popular, has big communities with big chat rooms. You can receive messages while offline, you can see room history. Suitable for private messaging too. You can use the built-in end-to-end encryption for private messages and private group chats.</p>
 
 <ul>
-  <li><em>Other chat applications: <a href="https://briarproject.org/">Briar</a>, <a href="https://retroshare.cc/">Retroshare</a>, <a href="https://bitmessage.org">Bitmessage</a>, <a href="https://signal.org/">Signal</a>, <a href="https://www.privacytools.io/software/real-time-communication/">more</a></em></li>
+  <li>
+    <p><em>Other messaging applications: <a href="https://briarproject.org/">Briar</a>, <a href="https://retroshare.cc/">Retroshare</a>, <a href="https://signal.org/">Signal</a>, <a href="https://www.privacytools.io/software/real-time-communication/">more</a></em></p>
+  </li>
+  <li>
+    <p>*Worthy mentions: <a href="https://en.wikipedia.org/wiki/OpenBazaar">OpenBazaar</a></p>
+  </li>
 </ul>
 
 <h2 id="alternative-physical-networks">Alternative physical networks</h2>
