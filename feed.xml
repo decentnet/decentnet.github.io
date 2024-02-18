@@ -1,127 +1,291 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-01-11T20:11:01+01:00</updated><id>/feed.xml</id><title type="html">DecentNet</title><subtitle>Decentralized, privacy, open-source, cool technologies, networks, software you should use.</subtitle><entry><title type="html">Bitmessage review</title><link href="/blog/20200830-bitmessage.html" rel="alternate" type="text/html" title="Bitmessage review" /><published>2020-08-30T02:20:00+02:00</published><updated>2020-08-30T02:20:00+02:00</updated><id>/blog/bitmessage</id><content type="html" xml:base="/blog/20200830-bitmessage.html">&lt;p&gt;I love the internet. Not what the internet has become today. I love the internet where you can be anonym, you can say anything, you don’t have to be afraid of SJWs or governments muting you or doxxing you.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="./feed.xml" rel="self" type="application/atom+xml" /><link href="./" rel="alternate" type="text/html" /><updated>2024-02-18T16:04:23+01:00</updated><id>/feed.xml</id><title type="html">DecentNet</title><subtitle>Decentralized, privacy, open-source, cool technologies, networks, software you should use.</subtitle><entry><title type="html">Programmable watches</title><link href="./blog/20240218-programmable-watches.html" rel="alternate" type="text/html" title="Programmable watches" /><published>2024-02-18T01:20:00+01:00</published><updated>2024-02-18T01:20:00+01:00</updated><id>/blog/programmable-watches</id><content type="html" xml:base="/blog/20240218-programmable-watches.html"><![CDATA[<p>A list of programmable watches:</p>
 
-&lt;p&gt;Decentralization is the way for an internet like that. &lt;a href=&quot;https://github.com/Bitmessage/PyBitmessage&quot;&gt;Bitmessage&lt;/a&gt; is a tool to achieve it.&lt;/p&gt;
+<ul>
+  <li><a href="#ttgo-twatch">Lilygo TTGO T-Watch</a></li>
+  <li><a href="#watchy">SQFMI Watchy</a></li>
+  <li><a href="#pinetime">Pine64 PineTime</a></li>
+  <li><a href="#banglejs">Bangle.js</a></li>
+  <li><a href="#ti-chronos">Texas Instruments eZ430-Chronos</a></li>
+  <li>
+    <p><a href="#sensor-watch">Sensor Watch</a></p>
+  </li>
+  <li>Lilygo T-Impulse/T-Wristband</li>
+  <li>MetaWatch</li>
+  <li>
+    <p>Pebble <em>(not programmable, but customizable)</em></p>
+  </li>
+  <li><em><a href="https://hackaday.com/2019/10/07/ask-hackaday-whats-the-perfect-hacker-smart-watch/">(more)</a></em></li>
+  <li><em><a href="https://github.com/Jac-eko/p8-smartwatch-hacking/blob/master/other-watches.md">(more)</a></em></li>
+</ul>
 
-&lt;p&gt;Bitmessage is one of the only few tools that isn’t controlled by anyone, that isn’t censored by anyone. It’s serverless. Everyone has a copy of every message, no one can say what you’re doing on Bitmessage. It works with Tor, so you can even hide that you’re using Bitmessage. It’s fully text-based. POW works to stop spammers. You can have as many identities as you want, it’s fully anonym. You can safely, effortlessly leave your contact information anywhere, and anyone can reach you anytime. It’s open source.&lt;/p&gt;
+<p>These are wristwaches that you can program yourself. You are not limited to the manufacturer’s firmware, you can write the watch’s program or operating system yourself. The manufacturer provides libraries and tools to write your own program, and you can upload these to the device through a programming interface.</p>
 
-&lt;p&gt;It doesn’t matter if PyBitmessage development is slow, or if at some point it stops. Bitmessage is a free protocol, anyone can continue the development or even develop new and better clients.&lt;/p&gt;
+<p>You can make your watch do exactly what you want, without any spyware from the manufacturer harvesting your data. You can develop wearable devices for specific applications.</p>
 
-&lt;p&gt;Decentralized e-mail is a powerful tool that everyone and every website should use.&lt;/p&gt;
+<h3 id="ttgo-twatch">Lilygo TTGO T-Watch 2020</h3>
 
-&lt;p&gt;Chans are great. They are like e-mail mailing lists. It’s a fully uncensored forum that’s built into Bitmessage.&lt;/p&gt;
+<p>The <a href="https://www.lilygo.cc/products/t-watch-2020-v3">T-Watch</a> is a traditional large, touchscreen LCD smartwatch based on an Arduino-compatible ESP32 microcontroller. Easy to program, the ESP32 ecosystem provides all the tools and libraries you need. The Arduino IDE is easy to set up, has easy-to-access examples.</p>
 
-&lt;p&gt;I don’t care if conspiracy theories or filth gets posted. If they couldn’t be posted, the program (the internet) couldn’t be truly free. It’s not the task of ISPs, governments, corporations or developers to censor what I can see and post. I’m a grown-up, I can filter out the messages myself.&lt;/p&gt;
+<p>Has Wi-Fi and Bluetooth for connectivity.</p>
 
-&lt;p&gt;Another similar project is &lt;a href=&quot;https://github.com/i2p/i2p.i2p-bote&quot;&gt;I2P-Bote&lt;/a&gt;. Someone recently picked it up again. I hope to try it out some time.&lt;/p&gt;
+<p>The manufacturer and community makers have great libraries. <a href="https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library">Xinyuan-LilyGO’s TTGO_TWatch_Library</a> provides great tools to write your own firmware for the watch. Works with the Arduino IDE, has great built-in examples for controlling all the watch’s functions. The <a href="https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/tree/master/examples/ClientProject/SimpleFramework">ClientProject/SimpleFramework</a> project provides a really basic C++ Arduino program with a watchface and a menu to run different applications; all you can modify rather easily to make your own smartwatch program.</p>
 
-&lt;p&gt;BM-2cUCQxqh6PyT5jcoKwuZkikQh3RXKjv9Q5&lt;/p&gt;</content><author><name></name></author><summary type="html">I love the internet. Not what the internet has become today. I love the internet where you can be anonym, you can say anything, you don’t have to be afraid of SJWs or governments muting you or doxxing you.</summary></entry><entry><title type="html">Download torrents anonymously through I2P for free</title><link href="/blog/20200329-download-torrents-through-i2p.html" rel="alternate" type="text/html" title="Download torrents anonymously through I2P for free" /><published>2020-03-29T01:20:00+01:00</published><updated>2020-03-29T01:20:00+01:00</updated><id>/blog/torrent-on-i2p</id><content type="html" xml:base="/blog/20200329-download-torrents-through-i2p.html">&lt;p&gt;When you torrent on clearnet, your IP is visible to other peers. Malicious actors might act as peers to de-anonymize you. Some people use VPNs to remain anonymous, but they cost money, and you can’t be sure how trustworthy your VPN provider is. &lt;a href=&quot;https://geti2p.net/&quot;&gt;I2P&lt;/a&gt; is a free anonymity network that works well with file transfers, that’s a good alternative to VPNs.&lt;/p&gt;
+<p>Really good for beginners, who want to try smartwatch programming, and those, who already used other ESP32 devices.</p>
 
-&lt;p&gt;&lt;em&gt;(Disclaimer: You should only download legal content. Use this article at your own risk. This article doesn’t encourage illegal behaviour. You are responsible for everything you do.)&lt;/em&gt;&lt;/p&gt;
+<p><a href="https://github.com/sharandac/My-TTGO-Watch">sharandac’s My-TTGO-Watch</a> firmware is more advanced, it’s a full operating system that runs on the watch. You need PlatformIO (usually used inside the Visual Studio Code editor) to upload or modify the firmware. It is harder to set up, and the firmware is more complex, harder to modify, harder to change system components. The firmware handles most hardware functions, like setting up Wi-Fi and Bluetooth, setting up the clock, setting system settings, updating the firmware from the internet. It provides a GUI to display the watchface, a top bar, an application drawer. The firmware provides a framework to write your own applications. And there are some default applications that provide a lot of smartwatch functionality, like connecting to a smartphone, changing watchfaces, map, weather etc.</p>
 
-&lt;p&gt;I2P is still in beta, it might have bugs, so be careful with it.&lt;/p&gt;
+<p>You can program the watch through the Micro-USB port on the side of the device. You can upload programs with the Arduino IDE or similar programs.</p>
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://geti2p.net/en/download&quot;&gt;Download&lt;/a&gt; and install I2P. On Windows, if you have trouble starting I2P, try installing it as a service.&lt;/p&gt;
+<p>The smartwatch, like most smartwatches, is really big, is rather ugly, not something I would personally wear. The backlit colour LCD uses a lot of battery, you can’t leave it on all day, you usually wake the screen to check the time, or access some of the watch’s functions. Like traditional smartwatches, you have to charge it every day or every few days depending on the use. You control the watch through the touchscreen, and there is 1 button you can program (for example to put the watch to sleep).</p>
 
-    &lt;p&gt;You’ll probably want the Java version, because it comes with a built-in BitTorrent client. You can use &lt;a href=&quot;https://i2pd.website/&quot;&gt;I2PD&lt;/a&gt; too, but you’ll have to set up your torrent client yourself. For the Java version you’ll have to &lt;a href=&quot;https://openjdk.java.net/&quot;&gt;install Java&lt;/a&gt; too.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install the &lt;a href=&quot;https://geti2p.net/firefox&quot;&gt;browser bundle&lt;/a&gt;, or make a fresh &lt;a href=&quot;https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles#w_start-the-profile-manager-when-firefox-is-closed&quot;&gt;profile in Firefox&lt;/a&gt; for I2P, where you install NoScript, HTTPS Everywhere and maybe some other privacy add-ons. &lt;a href=&quot;https://geti2p.net/en/about/browser-config#firefox&quot;&gt;Configure Firefox&lt;/a&gt; to use 127.0.0.1:4444 as proxy. You should disable JavaScript (in NoScript or in your Firefox settings).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You can control I2P through &lt;a href=&quot;http://127.0.0.1:7657&quot;&gt;127.0.0.1:7657&lt;/a&gt;, the I2P Router Console. It takes a few minutes for I2P to start up. You’ll want to &lt;a href=&quot;http://127.0.0.1:7657/config&quot;&gt;set the bandwidth&lt;/a&gt; used by I2P to something close to your internet bandwidth. In your physical router and your software firewall you should port-forward the ports used by your I2P installation; you can check the ports in your &lt;a href=&quot;http://127.0.0.1:7657/confignet&quot;&gt;Network Configuration&lt;/a&gt;. If you can’t reach some eepsites, you should add some &lt;a href=&quot;http://127.0.0.1:7657/help#addressbooksubs&quot;&gt;additional subscriptions&lt;/a&gt; to your Addressbook.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I2P has a torrent client that automatically, securely routes your traffic through the I2P network. You can reach &lt;a href=&quot;http://127.0.0.1:7657/i2psnark/&quot;&gt;I2PSnark&lt;/a&gt; with the Torrents button in your router console. Under &lt;a href=&quot;http://127.0.0.1:7657/i2psnark/configure&quot;&gt;Configuration&lt;/a&gt; you can set where you want to download your files, and if you want to autostart your torrents when I2P starts.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Torrents hosted on clearnet trackers (usually) don’t work inside I2P. You can only connect to peers who also run I2P. You can find some trackers at the bottom of I2PSnark’s &lt;a href=&quot;http://127.0.0.1:7657/i2psnark/configure&quot;&gt;configuration page&lt;/a&gt;. Or you can search somewhere else. The I2P community is pretty active on Irc2P, the IRC network inside I2P; download &lt;a href=&quot;https://hexchat.github.io/&quot;&gt;HexChat&lt;/a&gt;, review the settings, remove any information about you or your computer, and join 127.0.0.1:6668.&lt;/p&gt;
+<p>Available on Chinese marketplaces like AliExpress and the Lilygo website. It’s rather cheap, costs about 50 USD with shipping. Used to be cheaper. There are a few variants, but the T-Watch 2020 v1/v2/v3 is the most common. The new T-Watch S3 comes with LoRa.</p>
 
-    &lt;p&gt;Postman’s tracker is probably the most popular; you can search for torrents, or you can sort by swarm size to find popular ones.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you found something you want to download, copy its magnet link into I2PSnark. It’ll start connecting with other peers, start downloading and uploading pieces. Be patient, it’ll take some minutes for the torrents to start.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+<p>Lilygo is a big company that makes a lot of microcontroller boards.</p>
 
-&lt;p&gt;I2P is pretty slow, not many people use it yet, and you might not find some files you want on I2P trackers. But it’s the future of free anonymous file sharing. The more people who use it, the better it becomes.&lt;/p&gt;</content><author><name></name></author><summary type="html">When you torrent on clearnet, your IP is visible to other peers. Malicious actors might act as peers to de-anonymize you. Some people use VPNs to remain anonymous, but they cost money, and you can’t be sure how trustworthy your VPN provider is. I2P is a free anonymity network that works well with file transfers, that’s a good alternative to VPNs.</summary></entry><entry><title type="html">Website design, hosting</title><link href="/blog/20200308-website-design-experience.html" rel="alternate" type="text/html" title="Website design, hosting" /><published>2020-03-08T01:20:00+01:00</published><updated>2020-03-08T01:20:00+01:00</updated><id>/blog/website-experience</id><content type="html" xml:base="/blog/20200308-website-design-experience.html">&lt;p&gt;The website is static. This way I can host it on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, &lt;a href=&quot;https://dat.foundation/&quot;&gt;Dat&lt;/a&gt;, &lt;a href=&quot;https://ipfs.io/&quot;&gt;IPFS&lt;/a&gt; or some other cheap hosting provider. It’s really fast, it doesn’t require PHP or databases, it’s safe.&lt;/p&gt;
+<h3 id="watchy">SQFMI Watchy</h3>
 
-&lt;p&gt;GitHub Pages is free, convenient, reliable. Dat and IPFS are awesome technologies, it’s really cool that supporters of the website can pin it, potentially hosting it forever. And the users who might use Dat and IPFS to access the website will be the ones who are interested in the subject of the website, decentralized technologies. The &lt;a href=&quot;/about.html&quot;&gt;about page&lt;/a&gt; contains all the links where the website is accessible.&lt;/p&gt;
+<p>The <a href="https://watchy.sqfmi.com/">Watchy</a> is an E-Paper smartwatch. Also based on ESP32. Has Wi-Fi and Bluetooth.</p>
 
-&lt;p&gt;It is built with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; with the &lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;Minima&lt;/a&gt; theme with some modifications. Free themes in Jekyll give you a pretty website design out of the box. They work well with smartphones, they are optimized for search engines. Jekyll has plugins for further features and customization. Jekyll gives a quick structure for your website, so you can start writing your pages right away, and it also has blogging capabilities.&lt;/p&gt;
+<p>The black and white E-Paper display is extremely power-efficient, doesn’t need a backlight, and only uses power during updates, so the display can stay on all the time, and you only need to charge the watch once every few days depending on the use. E-Paper is also much more pretty than an LCD.</p>
 
-&lt;p&gt;The website doesn’t use JavaScript. Visitors can be sure it doesn’t run any malicious code, it doesn’t steal their data. It’d easily work on Tor or I2P where JavaScript is usually disabled. Blogs, Wikis, text and picture websites have no reason to run JavaScript, or at least always should work without JavaScript. Jekyll actually inserts some SEO tags with JavaScript by default, and I haven’t found an easy way to disable it yet, but I just delete those to keep the website pure.&lt;/p&gt;
+<p>The watch comes disassembled, so you have to assemble it yourself. The basic unit comes with a cheap injection-moulded case (used to come without a case), and you can buy nicer cases for it made of aluminium and such.</p>
 
-&lt;p&gt;The website is tiny. There are no images (at least not yet). Version 1 was about 70 KB. This makes it really easy for those who want to pin the website on Dat and IPFS. It also keeps the design clean, and hosting free/cheap.&lt;/p&gt;
+<p>The watch has a <a href="https://github.com/sqfmi/Watchy">firmware</a> provided by the manufacturer, but the examples are rather basic, only watchfaces, and the firmware source code is not that well documented, making learning the programming harder. You can program the watch through the USB port; you can upload programs with the Arduino IDE or PlatformIO.</p>
 
-&lt;p&gt;The main page of the website is the most important, it hosts the list of technologies divided into categories. &lt;a href=&quot;https://www.privacytools.io/&quot;&gt;PrivacyTools&lt;/a&gt; was an inspiration, that’s the go-to place for most people to find privacy-oriented services. I chose the most important and awesome decentralized techs to review, and gave a few additional services a mention. This is my list, it’s about what I think is important, but I don’t know the whole spectrum of decentralized technologies equally well, so I welcome suggestions. I plan on updating the list over time. I’m trying to support these technologies by giving them visibility, and trying to create a place people can go to to discover tech they want to use. Most of these projects are really important, the free internet can’t exist without them anymore. You can’t stay anonym without anonymity networks. Traditional social media websites are centralized, heavily censored and harvest data from their users. Traditional messaging applications leak data to advertisers and law enforcement. Decentralized alternatives are crucial.&lt;/p&gt;
+<p>In addition to the software, the hardware is open source as well.</p>
 
-&lt;p&gt;The blog is the secondary part of the website. Here I write posts that are connected to the technologies on the main page, guides on how to use them, further thoughts. Users of decentralized technologies might find these blog-posts useful.&lt;/p&gt;
+<p>The screen is not a touchscreen, you control the watch with 4 buttons, which is a really good interface to control a small device, like a watch, especially for watch functions. For everything else, you have a phone.</p>
 
-&lt;h2 id=&quot;proofs&quot;&gt;Proofs&lt;/h2&gt;
+<p>Size is about the same as the T-Watch, still huge.</p>
 
-&lt;p&gt;The &lt;a href=&quot;../about.html&quot;&gt;about page&lt;/a&gt; has my PGP public key. I signed version 0.9 of the website markdown files to prove they were made by me. I timestamped the signed files with &lt;a href=&quot;https://originstamp.org/&quot;&gt;OriginStamp&lt;/a&gt; on the Bitcoin blockchain to prove the ownership of the website content. The &lt;a href=&quot;../proofs.html&quot;&gt;proofs page&lt;/a&gt; has all the instructions to verify these. Only accept cryptocurrency addresses and sensitive information from me if it has been signed with my PGP key.&lt;/p&gt;
+<p>The watch is available in a few online shops, about 77 USD with shipping, varies on your location. Nicer cases cost 11–45 USD.</p>
 
-&lt;h2 id=&quot;hosting-experience&quot;&gt;Hosting experience&lt;/h2&gt;
+<p>SQFMI is a small company making only this device, which they released through crowdfunding.</p>
 
-&lt;p&gt;Hosting on GitHub Pages was really easy. I just created and set up an account, and pushed the built website with git.&lt;/p&gt;
+<h3 id="pinetime">Pine64 PineTime</h3>
 
-&lt;p&gt;Dat was fairly easy too. The &lt;a href=&quot;https://beakerbrowser.com/&quot;&gt;Beaker Browser&lt;/a&gt; has great, noob-friendly tools and instructions to share your files. After I started seeding the website files on my public key, I registered with a &lt;a href=&quot;https://hashbase.io/&quot;&gt;free pinning service&lt;/a&gt; that pulled the files from me with no problem.&lt;/p&gt;
+<p>The <a href="https://wiki.pine64.org/wiki/PineTime">PineTime</a> is a traditional large, touchscreen LCD smartwatch.</p>
 
-&lt;p&gt;IPFS was harder. Jekyll uses absolute links, but IPFS URLs consist of the address of localhost or a clearnet gateway, the words “ipns” or “ipfs”, and the IPNS or IPFS hash of the website; so the absolute links don’t work. I haven’t found a way to use relative links yet, but I just manually edit the HTML of my pages.&lt;/p&gt;
+<p>It doesn’t have a USB connector. To program it, you have to open it up, and <a href="https://wiki.pine64.org/wiki/PineTime_Devkit_Wiring">connect wires (pogo pins) to the programming pins</a>. You need a hardware programmer, but you can use an ESP32 or a Raspberry Pi as a programmer also.</p>
 
-&lt;p&gt;Adding files and IPNS names from IPFS Desktop didn’t work for me, so I used the command line. Pinning was harder too. Some pinning services gave me errors, so I had to do some debugging. A lot of pinning services don’t support IPNS pinning yet, so I’ll have to manually update the IPFS hashes every time I update the website. Some pinning services work through an API, so it’s not that hard, and I heard some services support IPNS too.&lt;/p&gt;
+<p>Definitely harder than programming the T-Watch through USB.</p>
 
-&lt;p&gt;&lt;em&gt;Update 20200329: IPNS doesn’t seem to work when I’m not online, and I don’t have a domain, so I stopped pushing to IPFS. The absolute links might be a problem with Dat gateways too (but people probably use Hashbase or Beaker Browser with Dat, not gateways).&lt;/em&gt;&lt;/p&gt;
+<p>If you want to program it, when ordering, make sure you order the <a href="https://pine64.com/product/pinetime-dev-kit/">Dev Kit</a>, because the sealed watch cannot be opened and programmed traditionally. On the Dev Kit the back doesn’t lock in place and you have to tape it or glue it if you want to attach it.</p>
 
-&lt;p&gt;&lt;em&gt;Update 20210111: Beaker Browser updated its protocol, and HashBase hasn’t been updated yet, so the HyperCore/Dat links don’t work at the moment.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The website is static. This way I can host it on GitHub Pages, Dat, IPFS or some other cheap hosting provider. It’s really fast, it doesn’t require PHP or databases, it’s safe.</summary></entry><entry><title type="html">Quick how to: Host a website on Dat (Beaker Browser) for free</title><link href="/blog/20200308-host-a-website-on-dat.html" rel="alternate" type="text/html" title="Quick how to: Host a website on Dat (Beaker Browser) for free" /><published>2020-03-08T01:10:00+01:00</published><updated>2020-03-08T01:10:00+01:00</updated><id>/blog/host-a-website-on-dat</id><content type="html" xml:base="/blog/20200308-host-a-website-on-dat.html">&lt;p&gt;&lt;em&gt;Update 20210111: This tutorial is out of date. Beaker Browser updated its protocol to hyper (HyperCore, HyperDrive). HashBase doesn’t work with hyper at the time of this update.&lt;/em&gt;&lt;/p&gt;
+<p>The watch has an nRF52832 SoC with an ARM CPU. It doesn’t (normally) support Arduino, you can’t (normally) program it with the Arduino IDE (although there’s an Arduino firmware).</p>
 
-&lt;p&gt;&lt;a href=&quot;https://dat.foundation/&quot;&gt;Dat&lt;/a&gt; is a peer-to-peer protocol. &lt;a href=&quot;https://beakerbrowser.com/&quot;&gt;Beaker Browser&lt;/a&gt; is a browser to browse websites hosted on it. If you visit a website, you download it from other peers, and you seed it further. If you want to support a website, you can pin it, so it’s always available on your computer for others to access (&lt;a href=&quot;dat://46415d000a5080de26f2458c4170e954c0e0ae0a914143aac09ab138b298019c/&quot;&gt;pin me!&lt;/a&gt;).&lt;/p&gt;
+<p>You write your code in C++/Rust/etc. (or modify the existing firmwares), compile it, and upload it to the watch with a flasher/debugger.</p>
 
-&lt;p&gt;You can host your websites on Dat for free. There are no servers; users and pinning services can serve your files. There are free services that can make your website available on the clearnet.&lt;/p&gt;
+<p>Alternatively some of the firmwares allow you to flash new firmwares/watchfaces <a href="https://wiki.pine64.org/wiki/Upgrade_PineTime_to_InfiniTime_1.0.0#Update_Process">over-the-air through Bluetooth</a>. So you might not need to open up the watch if you use this feature in your firmwares and you don’t break stuff.</p>
 
-&lt;p&gt;You host only static websites on Dat. There are no servers to interact with, to host databases on. Static websites can still be used for a lot. With JavaScript you can access other peer-to-peer networks, and store data on if needed, like &lt;a href=&quot;https://www.iota.org/&quot;&gt;IOTA&lt;/a&gt; or &lt;a href=&quot;https://ipfs.io/&quot;&gt;IPFS&lt;/a&gt;.&lt;/p&gt;
+<p>There are many community-written <a href="https://wiki.pine64.org/wiki/PineTime_Development">firmwares</a> for the PineTime.</p>
 
-&lt;p&gt;Popular static site generators are &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://gohugo.io/&quot;&gt;Hugo&lt;/a&gt;, but there are many others. With these tools you can quickly, easily make a website or a blog that looks good, works well with phones and search engines. You don’t have to do any coding. You should keep your website small, so it’s easier to pin; compress your images.&lt;/p&gt;
+<p><a href="https://github.com/InfiniTimeOrg/InfiniTime">InfiniTime</a> is the most advanced. It now comes preinstalled on the watch, but you have to update it to run the latest version. InfiniTime is a full operating system written in objective-oriented C++ based on FreeRTOS, that implements all watch functions, and creates a framework for apps. Has some documentation on coding. Developing apps is relatively easy, we have many examples; changing the operating system is harder, because it’s fairly complex.</p>
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/results?search_query=jekyll+tutorial&quot;&gt;Make a static website&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://beakerbrowser.com/install/&quot;&gt;Download Beaker Browser&lt;/a&gt;, set it up to your liking&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Menu &amp;gt; Create new &amp;gt; From folder &amp;gt; select the folder your website’s in&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Under Settings fill in the metaadata: Title, Description etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Under Files review the changes and Publish all&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Click Share and share your public key with your friends&lt;/p&gt;
+<p><a href="https://github.com/wasp-os/wasp-os">Wasp-os</a> is another operating system written in Python, that also works with apps.</p>
 
-    &lt;p&gt;The websites are identified by private keys (dat://46415d000a5080de26f2458c4170e954c0e0ae0a914143aac09ab138b298019c/ for example). While you’re online everyone can download your websites from you. You should use a pinning service to host your files even when you are offline. &lt;a href=&quot;hashbase.io&quot;&gt;HashBase&lt;/a&gt; is a popular pinning service that can host 100 MB for free. It gives you a subdomain, so it’s easier for you to share your website, and it makes your website accessible from the clearnet as well.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://hashbase.io/register&quot;&gt;Register on HashBase&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://hashbase.io/new-archive&quot;&gt;Upload archive&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Paste in your public key&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Give a name (subdomain) to your website&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+<p>The watch has Bluetooth, but no Wi-Fi. You can connect it to a phone to do normal smartwatch stuff and OTA updates, but you can’t connect to Wi-Fi networks, can’t debug them, can’t use it as a standalone device that networks, can’t connect to the internet.</p>
 
-&lt;p&gt;You’re done. Your website is accessible from the clearnet under https://yourname.hashbase.io. It’s always available for everyone to visit. Share your website.&lt;/p&gt;
+<p>Has touchscreen and 1 button.</p>
 
-&lt;p&gt;If you’re on Dat, but you host your website on the clearnet in some other way too, like &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, you should add a .well-known/dat and a  _config.yml file &lt;a href=&quot;https://github.com/pfrazee/pfrazee.github.io/commit/6e59d2eb4bcb10b9baf73a3de7d221e80d8190d8&quot;&gt;like such&lt;/a&gt;, so if people use the Beaker Browser (or a browser add-on), they are redirected to the decentralized Dat website.&lt;/p&gt;
+<p>The PineTime is a bit smaller than the T-Watch. It’s still large.</p>
 
-&lt;p&gt;Do you have a hobby you want to write about? Do you want a personal website, or a website for your small business? You can create a pretty, small, static website for free in some minutes or hours.&lt;/p&gt;</content><author><name></name></author><summary type="html">Update 20210111: This tutorial is out of date. Beaker Browser updated its protocol to hyper (HyperCore, HyperDrive). HashBase doesn’t work with hyper at the time of this update.</summary></entry></feed>
+<p>If you turn off the screen, and turn off the components you don’t need, the microcontroller doesn’t use much energy. But if you’re actively using the watch, and have the screen on much, which eats a lot of battery, the battery runs out quickly. Just like other touchscreen smartwatches.</p>
+
+<p>The smartwatch has really good <a href="https://wiki.pine64.org/wiki/PineTime">documentation</a>, especially for the hardware. There are lots of information on the Wiki, information too you need when programming the hardware itself.</p>
+
+<p>The software and the hardware are open source.</p>
+
+<p>Pine64 is a company that makes nice open source hardware devices.</p>
+
+<p>The PineTime has a big community of makers who released many firmwares, tools, content, guides for programming the smartwatch.</p>
+
+<p>The PineTime is available on Pine64’s website, costs 40 USD with shipping. Really cheap.</p>
+
+<p>There’s a similar Chinese smartwatch, the Colmi P8 Smartwatch, that uses similar hardware, and can be hacked to run PineTime firmwares.</p>
+
+<h3 id="banglejs">Bangle.js 2</h3>
+
+<p><a href="https://www.espruino.com/Bangle.js2">Bangle.js 2</a>: The cheap hackable <a href="https://hackaday.io/project/175577-hackable-nrf52840-smart-watch">SMA Q3</a> Alibaba smartwatch that ships with a custom, open source firmware that supports simple-to-program custom apps.</p>
+
+<p>You can modify the firmware itself, upload your program through the programming pins exposed on the back, write apps for the existing firmware, or install many of the apps already existing, over-the-air, through the web interface.</p>
+
+<p>The watch has an amazing 3-bit, 8 colour “memory” LCD display that stays on, and is readable by the sunlight when the backlight is turned off. It uses little battery if you don’t have the backlight on all day, so the watch can have great battery life. The display looks amazing, having less colours is an advantage, but the colours in addition to the black and white can make it pop. Some people already made some nice art for watchfaces.</p>
+
+<p>Made by a really small team, but the developer is relatively active developing new apps and the firmware. They don’t manufacture the hardware, but source it. Due to it being from Alibaba, there might be some minor quality issues, like with the the pins on the back and the charger, but it shouldn’t be a big deal. It’s a bit expensive at 77 GBP with tax. If you could source the original SMA Q3 watch from somewhere else cheaper, you could upload the firmware to the watch yourself, but unfortunately the manufacturer on Alibaba only sells in big bulks. Unfortunate, because the hardware is great, the exposed programming pins and the 3-bit display are amazing, and you don’t see those on other watches.</p>
+
+<p>The watch has Bluetooth, the apps connect to your phone to deliver “smart” features.</p>
+
+<h3 id="ti-chronos">Texas Instruments eZ430-Chronos</h3>
+
+<p><a href="https://web.archive.org/web/20180828100818/http://processors.wiki.ti.com/index.php/EZ430-Chronos">Texas Instruments eZ430-Chronos</a>: Internet-of-things watch originally made by the big watch-manufacturer. It communicates with internet-of-things devices (like sensors, relays, robots, anything Arduino/microcontroller related) through low-power radio.</p>
+
+<p>Doesn’t have Wi-Fi, doesn’t have Bluetooth, so it doesn’t connect to the internet, doesn’t (normally) connect with phones, but it can be useful if you have microcontrollers you want to control with the 4 buttons on the watch, microcontrollers you want to communicate with, if you have sensor readings you want to collect, if you want to connect to your network of internet-of-things devices.</p>
+
+<p>And it can connect to the computer with the USB radio dongle the watch comes with.</p>
+
+<p>The microcontroller is fully programmable, but you have to open the watchcase to use the programming connector.</p>
+
+<p>It has a great, extremely power-efficient, always-on, traditional segmented-LCD display, that’s much better suited for watches than a touchscreen. It’s small, looks like a normal digital watch.</p>
+
+<p>Unfortunately the watch isn’t manufactured anymore, and there aren’t many used ones out there, so you can’t really get it, or it is priced rather high.</p>
+
+<h3 id="sensor-watch">Sensor Watch mod</h3>
+
+<p>The <a href="https://www.sensorwatch.net/">Sensor Watch</a> is an ARM microcontroller board you can program, then put in an existing, tiny, cheap Casio F-91W watch.</p>
+
+<p>Has the advantages of traditional digital watches; small, good-looking, wearable, good quality body, segmented-LCD display, long battery life, physical buttons.</p>
+
+<p>The segmented LCD display is not designed for text-display (like later databank-watches are), so the text-display is a bit limited, but still doable. You have to take the board out every time you want to program it.</p>
+
+<p>The board doesn’t have any wireless connectivity, no Wi-Fi, no Bluetooth, you can’t connect it to a phone or a computer or the internet, so the smart features are rather limited. Maybe you could shove a tiny radio on the daughter “board” you can connect the main board, but the space is really limited.</p>
+
+<p>The board costs 53 USD with shipping. The donor Casio F-91W costs like 16–23 USD, depending on where you get it.</p>
+
+<p>The idea to use a custom board in an existing, cheap digital watch body and display is really good. I hope developers develop boards for bigger Casio bodies, like the AE1200 or the Databank watches; those could probably fit wireless modules for Bluetooth or Wi-Fi.</p>
+
+<h3 id="ideal-smartwatch">The ideal smartwatch</h3>
+
+<p>The ideal smartwatch is small, thin, wearable. Not bigger, than traditional digital watches, like the Casio AE1200. It looks just like one of these old digital watches, really stylish, not like a huge smartphone on your arm.</p>
+
+<p>The ideal smartwatch has a segmented or matrix (or ideally the combination of the two) monochrome LCD display, just like traditional digital watches. It is not normally backlit, readable by the sun, but can have a backlight you activate with button presses. Uses very little energy, can be on all the time, displaying the time, whatever information, maybe even the seconds.</p>
+
+<p>Has an ESP32 or some low powered microcontroller. Can turn off most functions and go into sleep, so it uses very little power, and the rechargable battery lasts like a month or more. Has Wi-Fi and Bluetooth. Maybe even some other radio, like LoRa.</p>
+
+<p>Can be programmed through USB, or pins exposed on the outside that fit in a charging–programming cradle or something. May be Arduino-compatible, or at least have libraries for all device functions. Has a library for the device that exposes all device functions so it’s really easy to program. Has simple examples for everything, which you can cobble together to make your own watch program.</p>
+
+<p>Has no useless sensors that just take up space. Is cheap. Made by a reliable manufacturer that produces the device for many decades.</p>
+
+<p>Is open source. Has some nice, durable metal or resin case, not a 3D printed one.</p>
+
+<p>The ideal smartwatch doesn’t exist. Yet. Or at least I don’t know about it.</p>
+
+<p>It may be possible, if someone hacks the Amazfit Neo. Or if some hardware or digital watch manufacturers get some balls.</p>
+
+<p><br />– 2230f087c8</p>]]></content><author><name></name></author><category term="freedom" /><category term="watch" /><category term="smartwatch" /><category term="programming" /><category term="esp32" /><category term="hardware" /><summary type="html"><![CDATA[A list of programmable watches:]]></summary></entry><entry><title type="html">The List</title><link href="./blog/20240213-the-list.html" rel="alternate" type="text/html" title="The List" /><published>2024-02-13T01:20:00+01:00</published><updated>2024-02-13T01:20:00+01:00</updated><id>/blog/the-list</id><content type="html" xml:base="/blog/20240213-the-list.html"><![CDATA[<p><a href="../decenttech.html">The list of decentralized, privacy, open-source technologies can be accessed here.</a></p>]]></content><author><name></name></author><category term="decentralized" /><category term="privacy" /><category term="open-source" /><category term="technology" /><category term="network" /><category term="software" /><summary type="html"><![CDATA[The list of decentralized, privacy, open-source technologies can be accessed here.]]></summary></entry><entry><title type="html">Bitmessage review</title><link href="./blog/20200830-bitmessage.html" rel="alternate" type="text/html" title="Bitmessage review" /><published>2020-08-30T02:20:00+02:00</published><updated>2020-08-30T02:20:00+02:00</updated><id>/blog/bitmessage</id><content type="html" xml:base="/blog/20200830-bitmessage.html"><![CDATA[<p>I love the internet. Not what the internet has become today. I love the internet where you can be anonym, you can say anything, you don’t have to be afraid of SJWs or governments muting you or doxxing you.</p>
+
+<p>Decentralization is the way for an internet like that. <a href="https://github.com/Bitmessage/PyBitmessage">Bitmessage</a> is a tool to achieve it.</p>
+
+<p>Bitmessage is one of the only few tools that isn’t controlled by anyone, that isn’t censored by anyone. It’s serverless. Everyone has a copy of every message, no one can say what you’re doing on Bitmessage. It works with Tor, so you can even hide that you’re using Bitmessage. It’s fully text-based. POW works to stop spammers. You can have as many identities as you want, it’s fully anonym. You can safely, effortlessly leave your contact information anywhere, and anyone can reach you anytime. It’s open source.</p>
+
+<p>It doesn’t matter if PyBitmessage development is slow, or if at some point it stops. Bitmessage is a free protocol, anyone can continue the development or even develop new and better clients.</p>
+
+<p>Decentralized e-mail is a powerful tool that everyone and every website should use.</p>
+
+<p>Chans are great. They are like e-mail mailing lists. It’s a fully uncensored forum that’s built into Bitmessage.</p>
+
+<p>I don’t care if conspiracy theories or filth gets posted. If they couldn’t be posted, the program (the internet) couldn’t be truly free. It’s not the task of ISPs, governments, corporations or developers to censor what I can see and post. I’m a grown-up, I can filter out the messages myself.</p>
+
+<p>Another similar project is <a href="https://github.com/i2p/i2p.i2p-bote">I2P-Bote</a>. Someone recently picked it up again. I hope to try it out some time.</p>
+
+<p>BM-2cUCQxqh6PyT5jcoKwuZkikQh3RXKjv9Q5</p>]]></content><author><name></name></author><category term="Bitmessage" /><category term="internet" /><category term="e-mail" /><category term="free" /><category term="decentralized" /><category term="anonymity" /><category term="privacy" /><summary type="html"><![CDATA[I love the internet. Not what the internet has become today. I love the internet where you can be anonym, you can say anything, you don’t have to be afraid of SJWs or governments muting you or doxxing you.]]></summary></entry><entry><title type="html">Download torrents anonymously through I2P for free</title><link href="./blog/20200329-download-torrents-through-i2p.html" rel="alternate" type="text/html" title="Download torrents anonymously through I2P for free" /><published>2020-03-29T01:20:00+01:00</published><updated>2020-03-29T01:20:00+01:00</updated><id>/blog/torrent-on-i2p</id><content type="html" xml:base="/blog/20200329-download-torrents-through-i2p.html"><![CDATA[<p>When you torrent on clearnet, your IP is visible to other peers. Malicious actors might act as peers to de-anonymize you. Some people use VPNs to remain anonymous, but they cost money, and you can’t be sure how trustworthy your VPN provider is. <a href="https://geti2p.net/">I2P</a> is a free anonymity network that works well with file transfers, that’s a good alternative to VPNs.</p>
+
+<p><em>(Disclaimer: You should only download legal content. Use this article at your own risk. This article doesn’t encourage illegal behaviour. You are responsible for everything you do.)</em></p>
+
+<p>I2P is still in beta, it might have bugs, so be careful with it.</p>
+
+<ol>
+  <li>
+    <p><a href="https://geti2p.net/en/download">Download</a> and install I2P. On Windows, if you have trouble starting I2P, try installing it as a service.</p>
+
+    <p>You’ll probably want the Java version, because it comes with a built-in BitTorrent client. You can use <a href="https://i2pd.website/">I2PD</a> too, but you’ll have to set up your torrent client yourself. For the Java version you’ll have to <a href="https://openjdk.java.net/">install Java</a> too.</p>
+  </li>
+  <li>
+    <p>Install the <a href="https://geti2p.net/firefox">browser bundle</a>, or make a fresh <a href="https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles#w_start-the-profile-manager-when-firefox-is-closed">profile in Firefox</a> for I2P, where you install NoScript, HTTPS Everywhere and maybe some other privacy add-ons. <a href="https://geti2p.net/en/about/browser-config#firefox">Configure Firefox</a> to use 127.0.0.1:4444 as proxy. You should disable JavaScript (in NoScript or in your Firefox settings).</p>
+  </li>
+  <li>
+    <p>You can control I2P through <a href="http://127.0.0.1:7657">127.0.0.1:7657</a>, the I2P Router Console. It takes a few minutes for I2P to start up. You’ll want to <a href="http://127.0.0.1:7657/config">set the bandwidth</a> used by I2P to something close to your internet bandwidth. In your physical router and your software firewall you should port-forward the ports used by your I2P installation; you can check the ports in your <a href="http://127.0.0.1:7657/confignet">Network Configuration</a>. If you can’t reach some eepsites, you should add some <a href="http://127.0.0.1:7657/help#addressbooksubs">additional subscriptions</a> to your Addressbook.</p>
+  </li>
+  <li>
+    <p>I2P has a torrent client that automatically, securely routes your traffic through the I2P network. You can reach <a href="http://127.0.0.1:7657/i2psnark/">I2PSnark</a> with the Torrents button in your router console. Under <a href="http://127.0.0.1:7657/i2psnark/configure">Configuration</a> you can set where you want to download your files, and if you want to autostart your torrents when I2P starts.</p>
+  </li>
+  <li>
+    <p>Torrents hosted on clearnet trackers (usually) don’t work inside I2P. You can only connect to peers who also run I2P. You can find some trackers at the bottom of I2PSnark’s <a href="http://127.0.0.1:7657/i2psnark/configure">configuration page</a>. Or you can search somewhere else. The I2P community is pretty active on Irc2P, the IRC network inside I2P; download <a href="https://hexchat.github.io/">HexChat</a>, review the settings, remove any information about you or your computer, and join 127.0.0.1:6668.</p>
+
+    <p>Postman’s tracker is probably the most popular; you can search for torrents, or you can sort by swarm size to find popular ones.</p>
+  </li>
+  <li>
+    <p>If you found something you want to download, copy its magnet link into I2PSnark. It’ll start connecting with other peers, start downloading and uploading pieces. Be patient, it’ll take some minutes for the torrents to start.</p>
+  </li>
+</ol>
+
+<p>I2P is pretty slow, not many people use it yet, and you might not find some files you want on I2P trackers. But it’s the future of free anonymous file sharing. The more people who use it, the better it becomes.</p>]]></content><author><name></name></author><category term="i2p" /><category term="torrent" /><category term="file-sharing" /><category term="free" /><category term="decentralized" /><category term="anonymity" /><category term="privacy" /><category term="bittorrent" /><summary type="html"><![CDATA[When you torrent on clearnet, your IP is visible to other peers. Malicious actors might act as peers to de-anonymize you. Some people use VPNs to remain anonymous, but they cost money, and you can’t be sure how trustworthy your VPN provider is. I2P is a free anonymity network that works well with file transfers, that’s a good alternative to VPNs.]]></summary></entry><entry><title type="html">Website design, hosting</title><link href="./blog/20200308-website-design-experience.html" rel="alternate" type="text/html" title="Website design, hosting" /><published>2020-03-08T01:20:00+01:00</published><updated>2020-03-08T01:20:00+01:00</updated><id>/blog/website-experience</id><content type="html" xml:base="/blog/20200308-website-design-experience.html"><![CDATA[<p>The website is static. This way I can host it on <a href="https://pages.github.com/">GitHub Pages</a>, <a href="https://dat.foundation/">Dat</a>, <a href="https://ipfs.io/">IPFS</a> or some other cheap hosting provider. It’s really fast, it doesn’t require PHP or databases, it’s safe.</p>
+
+<p>GitHub Pages is free, convenient, reliable. Dat and IPFS are awesome technologies, it’s really cool that supporters of the website can pin it, potentially hosting it forever. And the users who might use Dat and IPFS to access the website will be the ones who are interested in the subject of the website, decentralized technologies. The <a href="../about.html">about page</a> contains all the links where the website is accessible.</p>
+
+<p>It is built with <a href="https://jekyllrb.com/">Jekyll</a> with the <a href="https://github.com/jekyll/minima">Minima</a> theme with some modifications. Free themes in Jekyll give you a pretty website design out of the box. They work well with smartphones, they are optimized for search engines. Jekyll has plugins for further features and customization. Jekyll gives a quick structure for your website, so you can start writing your pages right away, and it also has blogging capabilities.</p>
+
+<p>The website doesn’t use JavaScript. Visitors can be sure it doesn’t run any malicious code, it doesn’t steal their data. It’d easily work on Tor or I2P where JavaScript is usually disabled. Blogs, Wikis, text and picture websites have no reason to run JavaScript, or at least always should work without JavaScript. Jekyll actually inserts some SEO tags with JavaScript by default, and I haven’t found an easy way to disable it yet, but I just delete those to keep the website pure.</p>
+
+<p>The website is tiny. There are no images (at least not yet). Version 1 was about 70 KB. This makes it really easy for those who want to pin the website on Dat and IPFS. It also keeps the design clean, and hosting free/cheap.</p>
+
+<p>The main page of the website is the most important, it hosts the list of technologies divided into categories. <a href="https://www.privacytools.io/">PrivacyTools</a> was an inspiration, that’s the go-to place for most people to find privacy-oriented services. I chose the most important and awesome decentralized techs to review, and gave a few additional services a mention. This is my list, it’s about what I think is important, but I don’t know the whole spectrum of decentralized technologies equally well, so I welcome suggestions. I plan on updating the list over time. I’m trying to support these technologies by giving them visibility, and trying to create a place people can go to to discover tech they want to use. Most of these projects are really important, the free internet can’t exist without them anymore. You can’t stay anonym without anonymity networks. Traditional social media websites are centralized, heavily censored and harvest data from their users. Traditional messaging applications leak data to advertisers and law enforcement. Decentralized alternatives are crucial.</p>
+
+<p>The blog is the secondary part of the website. Here I write posts that are connected to the technologies on the main page, guides on how to use them, further thoughts. Users of decentralized technologies might find these blog-posts useful.</p>
+
+<h2 id="proofs">Proofs</h2>
+
+<p>The <a href="../about.html">about page</a> has my PGP public key. I signed version 0.9 of the website markdown files to prove they were made by me. I timestamped the signed files with <a href="https://originstamp.org/">OriginStamp</a> on the Bitcoin blockchain to prove the ownership of the website content. The <a href="../proofs.html">proofs page</a> has all the instructions to verify these. Only accept cryptocurrency addresses and sensitive information from me if it has been signed with my PGP key.</p>
+
+<h2 id="hosting-experience">Hosting experience</h2>
+
+<p>Hosting on GitHub Pages was really easy. I just created and set up an account, and pushed the built website with git.</p>
+
+<p>Dat was fairly easy too. The <a href="https://beakerbrowser.com/">Beaker Browser</a> has great, noob-friendly tools and instructions to share your files. After I started seeding the website files on my public key, I registered with a <a href="https://hashbase.io/">free pinning service</a> that pulled the files from me with no problem.</p>
+
+<p>IPFS was harder. Jekyll uses absolute links, but IPFS URLs consist of the address of localhost or a clearnet gateway, the words “ipns” or “ipfs”, and the IPNS or IPFS hash of the website; so the absolute links don’t work. I haven’t found a way to use relative links yet, but I just manually edit the HTML of my pages.</p>
+
+<p>Adding files and IPNS names from IPFS Desktop didn’t work for me, so I used the command line. Pinning was harder too. Some pinning services gave me errors, so I had to do some debugging. A lot of pinning services don’t support IPNS pinning yet, so I’ll have to manually update the IPFS hashes every time I update the website. Some pinning services work through an API, so it’s not that hard, and I heard some services support IPNS too.</p>
+
+<p><em>Update 20200329: IPNS doesn’t seem to work when I’m not online, and I don’t have a domain, so I stopped pushing to IPFS. The absolute links might be a problem with Dat gateways too (but people probably use Hashbase or Beaker Browser with Dat, not gateways).</em></p>
+
+<p><em>Update 20210111: Beaker Browser updated its protocol, and HashBase hasn’t been updated yet, so the HyperCore/Dat links don’t work at the moment.</em></p>]]></content><author><name></name></author><category term="jekyll" /><category term="ipfs" /><category term="dat" /><category term="github" /><category term="website" /><category term="hosting" /><summary type="html"><![CDATA[The website is static. This way I can host it on GitHub Pages, Dat, IPFS or some other cheap hosting provider. It’s really fast, it doesn’t require PHP or databases, it’s safe.]]></summary></entry><entry><title type="html">Quick how to: Host a website on Dat (Beaker Browser) for free</title><link href="./blog/20200308-host-a-website-on-dat.html" rel="alternate" type="text/html" title="Quick how to: Host a website on Dat (Beaker Browser) for free" /><published>2020-03-08T01:10:00+01:00</published><updated>2020-03-08T01:10:00+01:00</updated><id>/blog/host-a-website-on-dat</id><content type="html" xml:base="/blog/20200308-host-a-website-on-dat.html"><![CDATA[<p><em>Update 20210111: This tutorial is out of date. Beaker Browser updated its protocol to hyper (HyperCore, HyperDrive). HashBase doesn’t work with hyper at the time of this update.</em></p>
+
+<p><a href="https://dat.foundation/">Dat</a> is a peer-to-peer protocol. <a href="https://beakerbrowser.com/">Beaker Browser</a> is a browser to browse websites hosted on it. If you visit a website, you download it from other peers, and you seed it further. If you want to support a website, you can pin it, so it’s always available on your computer for others to access (<a href="dat://46415d000a5080de26f2458c4170e954c0e0ae0a914143aac09ab138b298019c/">pin me!</a>).</p>
+
+<p>You can host your websites on Dat for free. There are no servers; users and pinning services can serve your files. There are free services that can make your website available on the clearnet.</p>
+
+<p>You host only static websites on Dat. There are no servers to interact with, to host databases on. Static websites can still be used for a lot. With JavaScript you can access other peer-to-peer networks, and store data on if needed, like <a href="https://www.iota.org/">IOTA</a> or <a href="https://ipfs.io/">IPFS</a>.</p>
+
+<p>Popular static site generators are <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://gohugo.io/">Hugo</a>, but there are many others. With these tools you can quickly, easily make a website or a blog that looks good, works well with phones and search engines. You don’t have to do any coding. You should keep your website small, so it’s easier to pin; compress your images.</p>
+
+<ol>
+  <li>
+    <p><a href="https://www.youtube.com/results?search_query=jekyll+tutorial">Make a static website</a></p>
+  </li>
+  <li>
+    <p><a href="https://beakerbrowser.com/install/">Download Beaker Browser</a>, set it up to your liking</p>
+  </li>
+  <li>
+    <p>Menu &gt; Create new &gt; From folder &gt; select the folder your website’s in</p>
+  </li>
+  <li>
+    <p>Under Settings fill in the metaadata: Title, Description etc.</p>
+  </li>
+  <li>
+    <p>Under Files review the changes and Publish all</p>
+  </li>
+  <li>
+    <p>Click Share and share your public key with your friends</p>
+
+    <p>The websites are identified by private keys (dat://46415d000a5080de26f2458c4170e954c0e0ae0a914143aac09ab138b298019c/ for example). While you’re online everyone can download your websites from you. You should use a pinning service to host your files even when you are offline. <a href="hashbase.io">HashBase</a> is a popular pinning service that can host 100 MB for free. It gives you a subdomain, so it’s easier for you to share your website, and it makes your website accessible from the clearnet as well.</p>
+  </li>
+  <li>
+    <p><a href="https://hashbase.io/register">Register on HashBase</a></p>
+  </li>
+  <li>
+    <p><a href="https://hashbase.io/new-archive">Upload archive</a></p>
+  </li>
+  <li>
+    <p>Paste in your public key</p>
+  </li>
+  <li>
+    <p>Give a name (subdomain) to your website</p>
+  </li>
+</ol>
+
+<p>You’re done. Your website is accessible from the clearnet under https://yourname.hashbase.io. It’s always available for everyone to visit. Share your website.</p>
+
+<p>If you’re on Dat, but you host your website on the clearnet in some other way too, like <a href="https://pages.github.com/">GitHub Pages</a>, you should add a .well-known/dat and a  _config.yml file <a href="https://github.com/pfrazee/pfrazee.github.io/commit/6e59d2eb4bcb10b9baf73a3de7d221e80d8190d8">like such</a>, so if people use the Beaker Browser (or a browser add-on), they are redirected to the decentralized Dat website.</p>
+
+<p>Do you have a hobby you want to write about? Do you want a personal website, or a website for your small business? You can create a pretty, small, static website for free in some minutes or hours.</p>]]></content><author><name></name></author><category term="dat" /><category term="beaker" /><category term="website" /><category term="hosting" /><category term="pinning" /><summary type="html"><![CDATA[Update 20210111: This tutorial is out of date. Beaker Browser updated its protocol to hyper (HyperCore, HyperDrive). HashBase doesn’t work with hyper at the time of this update.]]></summary></entry></feed>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Programmable watches | DecentNet</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Programmable watches" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A list of programmable watches:" />
+<meta property="og:description" content="A list of programmable watches:" />
+<link rel="canonical" href="../blog/20240218-programmable-watches.html" />
+<meta property="og:url" content="/blog/20240218-programmable-watches.html" />
+<meta property="og:site_name" content="DecentNet" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-02-18T01:20:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Programmable watches" />
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="../favicon.png">
+  <link rel="stylesheet" href="../assets/main.css"><link type="application/atom+xml" rel="alternate" href="../feed.xml" title="DecentNet" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="../">DecentNet</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+				<a class="page-link" href="../decenttech.html">The List</a>
+				 
+				<a class="page-link" href="../blog.html">Blog</a>
+				 
+				<a class="page-link" href="../about.html">About</a>
+				 </div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Programmable watches</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-02-18T01:20:00+01:00" itemprop="datePublished">Feb 18, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>A list of programmable watches:</p>
+
+<ul>
+  <li><a href="#ttgo-twatch">Lilygo TTGO T-Watch</a></li>
+  <li><a href="#watchy">SQFMI Watchy</a></li>
+  <li><a href="#pinetime">Pine64 PineTime</a></li>
+  <li><a href="#banglejs">Bangle.js</a></li>
+  <li><a href="#ti-chronos">Texas Instruments eZ430-Chronos</a></li>
+  <li>
+    <p><a href="#sensor-watch">Sensor Watch</a></p>
+  </li>
+  <li>Lilygo T-Impulse/T-Wristband</li>
+  <li>MetaWatch</li>
+  <li>
+    <p>Pebble <em>(not programmable, but customizable)</em></p>
+  </li>
+  <li><em><a href="https://hackaday.com/2019/10/07/ask-hackaday-whats-the-perfect-hacker-smart-watch/">(more)</a></em></li>
+  <li><em><a href="https://github.com/Jac-eko/p8-smartwatch-hacking/blob/master/other-watches.md">(more)</a></em></li>
+</ul>
+
+<p>These are wristwaches that you can program yourself. You are not limited to the manufacturer’s firmware, you can write the watch’s program or operating system yourself. The manufacturer provides libraries and tools to write your own program, and you can upload these to the device through a programming interface.</p>
+
+<p>You can make your watch do exactly what you want, without any spyware from the manufacturer harvesting your data. You can develop wearable devices for specific applications.</p>
+
+<h3 id="ttgo-twatch">Lilygo TTGO T-Watch 2020</h3>
+
+<p>The <a href="https://www.lilygo.cc/products/t-watch-2020-v3">T-Watch</a> is a traditional large, touchscreen LCD smartwatch based on an Arduino-compatible ESP32 microcontroller. Easy to program, the ESP32 ecosystem provides all the tools and libraries you need. The Arduino IDE is easy to set up, has easy-to-access examples.</p>
+
+<p>Has Wi-Fi and Bluetooth for connectivity.</p>
+
+<p>The manufacturer and community makers have great libraries. <a href="https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library">Xinyuan-LilyGO’s TTGO_TWatch_Library</a> provides great tools to write your own firmware for the watch. Works with the Arduino IDE, has great built-in examples for controlling all the watch’s functions. The <a href="https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/tree/master/examples/ClientProject/SimpleFramework">ClientProject/SimpleFramework</a> project provides a really basic C++ Arduino program with a watchface and a menu to run different applications; all you can modify rather easily to make your own smartwatch program.</p>
+
+<p>Really good for beginners, who want to try smartwatch programming, and those, who already used other ESP32 devices.</p>
+
+<p><a href="https://github.com/sharandac/My-TTGO-Watch">sharandac’s My-TTGO-Watch</a> firmware is more advanced, it’s a full operating system that runs on the watch. You need PlatformIO (usually used inside the Visual Studio Code editor) to upload or modify the firmware. It is harder to set up, and the firmware is more complex, harder to modify, harder to change system components. The firmware handles most hardware functions, like setting up Wi-Fi and Bluetooth, setting up the clock, setting system settings, updating the firmware from the internet. It provides a GUI to display the watchface, a top bar, an application drawer. The firmware provides a framework to write your own applications. And there are some default applications that provide a lot of smartwatch functionality, like connecting to a smartphone, changing watchfaces, map, weather etc.</p>
+
+<p>You can program the watch through the Micro-USB port on the side of the device. You can upload programs with the Arduino IDE or similar programs.</p>
+
+<p>The smartwatch, like most smartwatches, is really big, is rather ugly, not something I would personally wear. The backlit colour LCD uses a lot of battery, you can’t leave it on all day, you usually wake the screen to check the time, or access some of the watch’s functions. Like traditional smartwatches, you have to charge it every day or every few days depending on the use. You control the watch through the touchscreen, and there is 1 button you can program (for example to put the watch to sleep).</p>
+
+<p>Available on Chinese marketplaces like AliExpress and the Lilygo website. It’s rather cheap, costs about 50 USD with shipping. Used to be cheaper. There are a few variants, but the T-Watch 2020 v1/v2/v3 is the most common. The new T-Watch S3 comes with LoRa.</p>
+
+<p>Lilygo is a big company that makes a lot of microcontroller boards.</p>
+
+<h3 id="watchy">SQFMI Watchy</h3>
+
+<p>The <a href="https://watchy.sqfmi.com/">Watchy</a> is an E-Paper smartwatch. Also based on ESP32. Has Wi-Fi and Bluetooth.</p>
+
+<p>The black and white E-Paper display is extremely power-efficient, doesn’t need a backlight, and only uses power during updates, so the display can stay on all the time, and you only need to charge the watch once every few days depending on the use. E-Paper is also much more pretty than an LCD.</p>
+
+<p>The watch comes disassembled, so you have to assemble it yourself. The basic unit comes with a cheap injection-moulded case (used to come without a case), and you can buy nicer cases for it made of aluminium and such.</p>
+
+<p>The watch has a <a href="https://github.com/sqfmi/Watchy">firmware</a> provided by the manufacturer, but the examples are rather basic, only watchfaces, and the firmware source code is not that well documented, making learning the programming harder. You can program the watch through the USB port; you can upload programs with the Arduino IDE or PlatformIO.</p>
+
+<p>In addition to the software, the hardware is open source as well.</p>
+
+<p>The screen is not a touchscreen, you control the watch with 4 buttons, which is a really good interface to control a small device, like a watch, especially for watch functions. For everything else, you have a phone.</p>
+
+<p>Size is about the same as the T-Watch, still huge.</p>
+
+<p>The watch is available in a few online shops, about 77 USD with shipping, varies on your location. Nicer cases cost 11–45 USD.</p>
+
+<p>SQFMI is a small company making only this device, which they released through crowdfunding.</p>
+
+<h3 id="pinetime">Pine64 PineTime</h3>
+
+<p>The <a href="https://wiki.pine64.org/wiki/PineTime">PineTime</a> is a traditional large, touchscreen LCD smartwatch.</p>
+
+<p>It doesn’t have a USB connector. To program it, you have to open it up, and <a href="https://wiki.pine64.org/wiki/PineTime_Devkit_Wiring">connect wires (pogo pins) to the programming pins</a>. You need a hardware programmer, but you can use an ESP32 or a Raspberry Pi as a programmer also.</p>
+
+<p>Definitely harder than programming the T-Watch through USB.</p>
+
+<p>If you want to program it, when ordering, make sure you order the <a href="https://pine64.com/product/pinetime-dev-kit/">Dev Kit</a>, because the sealed watch cannot be opened and programmed traditionally. On the Dev Kit the back doesn’t lock in place and you have to tape it or glue it if you want to attach it.</p>
+
+<p>The watch has an nRF52832 SoC with an ARM CPU. It doesn’t (normally) support Arduino, you can’t (normally) program it with the Arduino IDE (although there’s an Arduino firmware).</p>
+
+<p>You write your code in C++/Rust/etc. (or modify the existing firmwares), compile it, and upload it to the watch with a flasher/debugger.</p>
+
+<p>Alternatively some of the firmwares allow you to flash new firmwares/watchfaces <a href="https://wiki.pine64.org/wiki/Upgrade_PineTime_to_InfiniTime_1.0.0#Update_Process">over-the-air through Bluetooth</a>. So you might not need to open up the watch if you use this feature in your firmwares and you don’t break stuff.</p>
+
+<p>There are many community-written <a href="https://wiki.pine64.org/wiki/PineTime_Development">firmwares</a> for the PineTime.</p>
+
+<p><a href="https://github.com/InfiniTimeOrg/InfiniTime">InfiniTime</a> is the most advanced. It now comes preinstalled on the watch, but you have to update it to run the latest version. InfiniTime is a full operating system written in objective-oriented C++ based on FreeRTOS, that implements all watch functions, and creates a framework for apps. Has some documentation on coding. Developing apps is relatively easy, we have many examples; changing the operating system is harder, because it’s fairly complex.</p>
+
+<p><a href="https://github.com/wasp-os/wasp-os">Wasp-os</a> is another operating system written in Python, that also works with apps.</p>
+
+<p>The watch has Bluetooth, but no Wi-Fi. You can connect it to a phone to do normal smartwatch stuff and OTA updates, but you can’t connect to Wi-Fi networks, can’t debug them, can’t use it as a standalone device that networks, can’t connect to the internet.</p>
+
+<p>Has touchscreen and 1 button.</p>
+
+<p>The PineTime is a bit smaller than the T-Watch. It’s still large.</p>
+
+<p>If you turn off the screen, and turn off the components you don’t need, the microcontroller doesn’t use much energy. But if you’re actively using the watch, and have the screen on much, which eats a lot of battery, the battery runs out quickly. Just like other touchscreen smartwatches.</p>
+
+<p>The smartwatch has really good <a href="https://wiki.pine64.org/wiki/PineTime">documentation</a>, especially for the hardware. There are lots of information on the Wiki, information too you need when programming the hardware itself.</p>
+
+<p>The software and the hardware are open source.</p>
+
+<p>Pine64 is a company that makes nice open source hardware devices.</p>
+
+<p>The PineTime has a big community of makers who released many firmwares, tools, content, guides for programming the smartwatch.</p>
+
+<p>The PineTime is available on Pine64’s website, costs 40 USD with shipping. Really cheap.</p>
+
+<p>There’s a similar Chinese smartwatch, the Colmi P8 Smartwatch, that uses similar hardware, and can be hacked to run PineTime firmwares.</p>
+
+<h3 id="banglejs">Bangle.js 2</h3>
+
+<p><a href="https://www.espruino.com/Bangle.js2">Bangle.js 2</a>: The cheap hackable <a href="https://hackaday.io/project/175577-hackable-nrf52840-smart-watch">SMA Q3</a> Alibaba smartwatch that ships with a custom, open source firmware that supports simple-to-program custom apps.</p>
+
+<p>You can modify the firmware itself, upload your program through the programming pins exposed on the back, write apps for the existing firmware, or install many of the apps already existing, over-the-air, through the web interface.</p>
+
+<p>The watch has an amazing 3-bit, 8 colour “memory” LCD display that stays on, and is readable by the sunlight when the backlight is turned off. It uses little battery if you don’t have the backlight on all day, so the watch can have great battery life. The display looks amazing, having less colours is an advantage, but the colours in addition to the black and white can make it pop. Some people already made some nice art for watchfaces.</p>
+
+<p>Made by a really small team, but the developer is relatively active developing new apps and the firmware. They don’t manufacture the hardware, but source it. Due to it being from Alibaba, there might be some minor quality issues, like with the the pins on the back and the charger, but it shouldn’t be a big deal. It’s a bit expensive at 77 GBP with tax. If you could source the original SMA Q3 watch from somewhere else cheaper, you could upload the firmware to the watch yourself, but unfortunately the manufacturer on Alibaba only sells in big bulks. Unfortunate, because the hardware is great, the exposed programming pins and the 3-bit display are amazing, and you don’t see those on other watches.</p>
+
+<p>The watch has Bluetooth, the apps connect to your phone to deliver “smart” features.</p>
+
+<h3 id="ti-chronos">Texas Instruments eZ430-Chronos</h3>
+
+<p><a href="https://web.archive.org/web/20180828100818/http://processors.wiki.ti.com/index.php/EZ430-Chronos">Texas Instruments eZ430-Chronos</a>: Internet-of-things watch originally made by the big watch-manufacturer. It communicates with internet-of-things devices (like sensors, relays, robots, anything Arduino/microcontroller related) through low-power radio.</p>
+
+<p>Doesn’t have Wi-Fi, doesn’t have Bluetooth, so it doesn’t connect to the internet, doesn’t (normally) connect with phones, but it can be useful if you have microcontrollers you want to control with the 4 buttons on the watch, microcontrollers you want to communicate with, if you have sensor readings you want to collect, if you want to connect to your network of internet-of-things devices.</p>
+
+<p>And it can connect to the computer with the USB radio dongle the watch comes with.</p>
+
+<p>The microcontroller is fully programmable, but you have to open the watchcase to use the programming connector.</p>
+
+<p>It has a great, extremely power-efficient, always-on, traditional segmented-LCD display, that’s much better suited for watches than a touchscreen. It’s small, looks like a normal digital watch.</p>
+
+<p>Unfortunately the watch isn’t manufactured anymore, and there aren’t many used ones out there, so you can’t really get it, or it is priced rather high.</p>
+
+<h3 id="sensor-watch">Sensor Watch mod</h3>
+
+<p>The <a href="https://www.sensorwatch.net/">Sensor Watch</a> is an ARM microcontroller board you can program, then put in an existing, tiny, cheap Casio F-91W watch.</p>
+
+<p>Has the advantages of traditional digital watches; small, good-looking, wearable, good quality body, segmented-LCD display, long battery life, physical buttons.</p>
+
+<p>The segmented LCD display is not designed for text-display (like later databank-watches are), so the text-display is a bit limited, but still doable. You have to take the board out every time you want to program it.</p>
+
+<p>The board doesn’t have any wireless connectivity, no Wi-Fi, no Bluetooth, you can’t connect it to a phone or a computer or the internet, so the smart features are rather limited. Maybe you could shove a tiny radio on the daughter “board” you can connect the main board, but the space is really limited.</p>
+
+<p>The board costs 53 USD with shipping. The donor Casio F-91W costs like 16–23 USD, depending on where you get it.</p>
+
+<p>The idea to use a custom board in an existing, cheap digital watch body and display is really good. I hope developers develop boards for bigger Casio bodies, like the AE1200 or the Databank watches; those could probably fit wireless modules for Bluetooth or Wi-Fi.</p>
+
+<h3 id="ideal-smartwatch">The ideal smartwatch</h3>
+
+<p>The ideal smartwatch is small, thin, wearable. Not bigger, than traditional digital watches, like the Casio AE1200. It looks just like one of these old digital watches, really stylish, not like a huge smartphone on your arm.</p>
+
+<p>The ideal smartwatch has a segmented or matrix (or ideally the combination of the two) monochrome LCD display, just like traditional digital watches. It is not normally backlit, readable by the sun, but can have a backlight you activate with button presses. Uses very little energy, can be on all the time, displaying the time, whatever information, maybe even the seconds.</p>
+
+<p>Has an ESP32 or some low powered microcontroller. Can turn off most functions and go into sleep, so it uses very little power, and the rechargable battery lasts like a month or more. Has Wi-Fi and Bluetooth. Maybe even some other radio, like LoRa.</p>
+
+<p>Can be programmed through USB, or pins exposed on the outside that fit in a charging–programming cradle or something. May be Arduino-compatible, or at least have libraries for all device functions. Has a library for the device that exposes all device functions so it’s really easy to program. Has simple examples for everything, which you can cobble together to make your own watch program.</p>
+
+<p>Has no useless sensors that just take up space. Is cheap. Made by a reliable manufacturer that produces the device for many decades.</p>
+
+<p>Is open source. Has some nice, durable metal or resin case, not a 3D printed one.</p>
+
+<p>The ideal smartwatch doesn’t exist. Yet. Or at least I don’t know about it.</p>
+
+<p>It may be possible, if someone hacks the Amazfit Neo. Or if some hardware or digital watch manufacturers get some balls.</p>
+
+<p><br />– 2230f087c8</p>
+
+  </div><a class="u-url" href="../blog/20240218-programmable-watches.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="../"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DecentNet</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">DecentNet</li><li><a class="u-email" href="mailto:c776a8@disroot.org">c776a8@disroot.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Decentralized, privacy, open-source, cool technologies, networks, software you should use.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
